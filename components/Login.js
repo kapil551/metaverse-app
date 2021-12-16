@@ -4,16 +4,16 @@ import { useMoralis } from "react-moralis";
 function Login() {
 
     const { authenticate } = useMoralis();
+
     return (
 
         <div className="bg-black relative">
-            <h1>Login screen</h1>
 
             <div className="flex flex-col absolute z-50 h-4/6 w-full items-center justify-center space-y-4">
 
                 {/* logo image */}
                 <Image 
-                    src="https://links.papareact.com/3pi"
+                    src="https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/655516/metaverse-vr-headset.jpg&w=1000&op=resize"
                     height={200}
                     width={200}
                     className="object-cover rounded-full"
