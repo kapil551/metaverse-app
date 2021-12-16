@@ -21,7 +21,7 @@ function Login() {
 
                 {/* login button */}
                 <button 
-                    className="bg-yellow-500 rounded-lg p-5 font-bold animate-pulse"
+                    className="bg-[#296E86] rounded-lg p-5 font-bold animate-pulse"
                     onClick={authenticate}
                 > 
                     Login to the METAVERSE 

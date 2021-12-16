@@ -25,7 +25,7 @@ export default function Home() {
 
       <h1> Welcome to the METAVERSE </h1>
 
-      <button onClick={logout} className="bg-yellow-500 rounded-lg p-2 font-bold animate-pulse"> Logout </button>
+      <button onClick={logout} className="bg-[#296E86] rounded-lg p-2 font-bold animate-pulse"> Logout </button>
 
     </div>
   )
