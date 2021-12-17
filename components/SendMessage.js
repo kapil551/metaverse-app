@@ -43,7 +43,7 @@ function SendMessage({ endOfMessagesRef }) {
         setMessage("");
     }
 
-    console.log(message);
+    // console.log(message);
 
     return (
 
