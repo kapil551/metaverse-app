@@ -27,7 +27,7 @@ function Messages() {
 
     return (
 
-        <div className="border-2 border-green-500 pb-56">
+        <div className="pb-56">
 
             <div>
 
