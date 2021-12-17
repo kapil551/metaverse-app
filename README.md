@@ -9,7 +9,7 @@
 
 2. Project Overview:
 
-    - 
+    - Real-time chat application powered by moralis.io
     -
     -
     -
@@ -53,3 +53,7 @@
     page, rather than having to user to show nothing, i want a little loading indicator to come on the page during the transition.
 
     - https://www.npmjs.com/package/@badrap/bar-of-progress
+
+    - https://avatars.dicebear.com/
+
+    - https://www.npmjs.com/package/timeago-react

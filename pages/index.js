@@ -2,11 +2,13 @@ import Head from 'next/head'
 import Login from '../components/Login';
 
 import { useMoralis } from 'react-moralis';
+import Header from '../components/Header';
+import Messages from '../components/Messages';
 
 export default function Home() {
 
   // https://docs.moralis.io/moralis-server/tools/react-moralis
-  const { isAuthenticated, logout } = useMoralis();
+  const { isAuthenticated } = useMoralis();
 
   if(!isAuthenticated) {
     return (
@@ -16,16 +18,22 @@ export default function Home() {
   
   return (
 
-    <div className="h-screen">
+    <div className="h-screen overflow-y-scroll scrollbar-hide bg-gradient-to-b from-black to-fuchsia-900 overflow-hidden">
       
       <Head>
-        <title>welcome to the metaverse</title>
+        <title> welcome to metaverse</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1> Welcome to the METAVERSE </h1>
+      <div className="max-w-screen-2xl mx-auto">
 
-      <button onClick={logout} className="bg-[#296E86] rounded-lg p-2 font-bold animate-pulse"> Logout </button>
+        {/* Header */}
+        <Header />
+
+        {/* Messages */}
+        <Messages />
+
+      </div>
 
     </div>
   )
