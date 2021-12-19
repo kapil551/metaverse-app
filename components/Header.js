@@ -9,7 +9,7 @@ function Header() {
     
     return (
 
-        <div className="text-pink-500 sticky top-0 p-5 z-50 bg-black shadow-sm border-b-2 border-pink-700">
+        <div className="text-[#3B82F6] sticky top-0 p-5 z-50 bg-black shadow-sm border-b-2 border-blue-700">
            
            <div className="grid grid-cols-4 lg:grid-cols-4 items-end lg:items-center">
 
@@ -24,7 +24,7 @@ function Header() {
                </div> */}
 
                <div className="text-left lg:text-center col-span-4">
-                   <div className="h-48 w-48 relative lg:mx-auto border-pink-500 border-8 rounded-full">
+                   <div className="h-48 w-48 relative lg:mx-auto border-blue-500 border-8 rounded-full">
                         {/* avatar */}
                         <Avatar logoutOnPress/>
                    </div>

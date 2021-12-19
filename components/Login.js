@@ -9,11 +9,11 @@ function Login() {
 
         <div className="bg-black relative">
 
-            <div className="flex flex-col absolute z-50 h-4/6 w-full items-center justify-center space-y-4">
+            <div className="flex flex-col absolute top-[17.5rem] z-50 h-4/6 w-full items-center space-y-16">
 
                 {/* logo image */}
                 <Image 
-                    src="https://g.foolcdn.com/image/?url=https%3A//g.foolcdn.com/editorial/images/655516/metaverse-vr-headset.jpg&w=1000&op=resize"
+                    src="/metainfinity.jpg"
                     height={200}
                     width={200}
                     className="object-cover rounded-full"
@@ -21,7 +21,7 @@ function Login() {
 
                 {/* login button */}
                 <button 
-                    className="bg-[#296E86] rounded-lg p-5 font-bold animate-pulse"
+                    className="bg-blue-500 rounded-lg p-5 font-bold animate-pulse"
                     onClick={authenticate}
                 > 
                     Login to the METAVERSE 
@@ -31,7 +31,7 @@ function Login() {
 
             <div className="w-full h-screen">
                 <Image 
-                    src="https://links.papareact.com/55n"
+                     src="/metainfinity.jpg"
                     layout="fill"
                     objectFit="cover"
                 />

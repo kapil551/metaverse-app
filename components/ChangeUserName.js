@@ -22,7 +22,7 @@ function ChangeUserName() {
         <div className="text-sm absolute top-5 right-5">
 
             <button 
-                className="hover:text-pink-700" 
+                className="bg-blue-500 rounded-lg p-2 font-bold text-white " 
                 disabled={isUserUpdating}
                 onClick={setUserName}
             >
@@ -33,4 +33,4 @@ function ChangeUserName() {
     )
 }
 
-export default ChangeUserName
+export default ChangeUserName;

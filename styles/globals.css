@@ -7,6 +7,6 @@
     /* body is present at the base level */
     /* apply the google fonts to the body */
     body {
-      @apply scrollbar-hide;
+      @apply scrollbar-hide overflow-hidden;
     }
   }
